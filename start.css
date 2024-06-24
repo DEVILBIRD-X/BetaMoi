@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://i.vietgiaitri.com/2021/8/13/link-tai-mien-phi-rebel-galaxy-game-chien-dau-vu-tru-cuc-dinh-d95-5955278.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.start-screen, .world1-screen {
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#start-button, .level-button {
+    padding: 20px 40px;
+    font-size: 24px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#start-button:hover, .level-button:hover {
+    background-color: #218838;
+}
+
+#start-button:active, .level-button:active {
+    background-color: #1e7e34;
+}
